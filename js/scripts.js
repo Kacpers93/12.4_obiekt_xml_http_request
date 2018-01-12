@@ -17,3 +17,7 @@ function getJoke() {
     xhr.send();
 }
 
+getJoke(function(){
+    $('#get-joke').click();
+});
+
